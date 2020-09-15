@@ -34,12 +34,8 @@ CuboidMaker.prototype.surfaceArea = function() {
   Add properties and values of length: 4, width: 5, and height: 5 to cuboid.
 */
 
-const cuboid = new CuboidMaker({
-  'length': 4,
-  'width': 5,
-  'height': 5
-});
-"This is results for cuboidMaker"
+const cuboid = new CuboidMaker({length: 4, width: 5, height: 5});
+
 console.log("This is results for cuboidMaker:")
 // Test your volume and surfaceArea methods by uncommenting the logs below:
 console.log(cuboid.volume());  // 100
